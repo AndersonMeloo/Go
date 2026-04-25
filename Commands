@@ -1,0 +1,3 @@
+go run 'folder'
+
+go mod tidy - O que não estou utilizando ele tira do go mod e o que estou utilizando ele adiciona ao go mod
