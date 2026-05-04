@@ -6,6 +6,8 @@ import (
 )
 
 func initializeRoutes(router *gin.Engine) {
+	// Initialize Handler
+	handler.InitializeHandler()
 
 	// Version in API - To define routes within this group, use v1.GET(), v1.POST(), etc.
 	v1 := router.Group("/api/v1")

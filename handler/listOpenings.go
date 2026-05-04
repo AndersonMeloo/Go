@@ -12,3 +12,4 @@ func ListOpeningsHandler(ctx *gin.Context) {
 		"message": "GET Openings!",
 	})
 }
+

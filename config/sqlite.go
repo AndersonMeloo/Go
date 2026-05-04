@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/AndersonMeloo/Go.git/schemas"
-	"gorm.io/driver/sqlite"
+	"github.com/glebarez/sqlite"
 	"gorm.io/gorm"
 )
 
