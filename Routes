@@ -17,3 +17,14 @@ DELETE: http://localhost:8080/api/v1/opening
 Params -> Query Params
 Key: id
 Value: 1 (or the id of the opening you want to delete)
+
+Update Opening.
+PUT: http://localhost:8080/api/v1/opening
+{
+    "role": "TesteRole",
+    "company": "TesteCompany",
+    "location": "TesteLocation",
+    "remote": true,
+    "link": "testelink.com",
+    "salary": 4000
+}
